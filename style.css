@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+}
+#calc {
+	margin: 0 auto;
+	height: 400px;
+	width: 550px;
+	background: #333333;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+#screen {
+	width: 510px;
+	height: 40px;
+	background: #c4bba7;
+	margin: 20px auto 10px auto;
+	text-align: right;
+	font-size: 35px;
+}
+#numbers {
+	width: 510px;
+	height: 290px;
+	margin: 0 auto;
+}
+#numbers div {
+	width: 80px;
+	height: 60px;
+	background: #999999;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 50px;
+}
+#numbers div:hover {
+	cursor: default;
+}
+#numbers div:active {
+	background: #777777;
+}
+#blank {
+	opacity: 0;
+	visibility: hidden;
+}
